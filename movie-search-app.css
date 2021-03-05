@@ -1,0 +1,107 @@
+    body{
+        background-image: url("movies-tiles.jpg")
+        
+    }
+    #search{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    }
+    #watchlist{
+    text-align: center;
+    display : none;
+    color:white;
+    font-size: 50px;
+    }
+    #movielist{
+    display : none;
+    text-align: center;
+    color:white;
+    font-size:40px;
+    }
+    #hide{
+    display : none;
+    text-align: center;
+    color:#80cbc4;
+    font-size:20px;
+    font-weight: bold;
+    }
+    #arrOfMovies{
+    text-align: center;
+    display : none;
+    color:#80cbc4;
+    font-size:20px;
+    font-weight: bold;
+    }
+    #btn{
+        left:50%;
+    }
+    #form{
+        position: relative;
+        text-align: center;
+    }
+    #search-box{
+        width: 250px;
+        height: 20px;
+        border-radius: 4px;
+    }
+    #btn{
+        width: 100px;
+        height: 26px;
+        border-radius: 4px;
+    }
+    #btn:hover{
+        background-color: #80cbc4
+    }
+   #transparentF{
+    position:relative;
+    text-align:center;
+    margin: 30px;
+    background-color:black;
+    border: 1px solid #80cbc4;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    width: 500px;
+    margin-top:-8px;
+    border-radius: 5px;
+    left:100px;
+   }
+   #transparentS{
+    position:relative;  
+    text-align:center;
+    background-color:black;
+    border: 1px solid #80cbc4;
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    width: 500px;
+    margin-top:-8px;
+    border-radius: 5px;
+    left: 70%;
+    bottom: 1036px;
+    }
+    #outuser{
+        position: fixed;
+        top:10px;
+    }
+    #logout-btn{
+        width: 100px;
+        height: 26px;
+        border-radius: 4px;
+        background-color: black;
+        color:white;
+    }
+    #logout-btn:hover{
+        background-color: #80cbc4
+    }
+    #localstorage{
+        height:20px;
+        border: 1px solid white;
+        background-color: black;
+        color:white;
+        width: 100px;
+        text-align: center;
+        border-radius: 4px;
+    }
+    
+    
+    
